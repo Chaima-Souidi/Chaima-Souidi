@@ -10,9 +10,9 @@
 
 ## 👨‍💻 About Me
 
-- 🌱 Engineering Student
-- 🤖 AI Enthusiast
-- 🐧 Linux User
+- Engineering Student
+- AI Enthusiast
+- Linux User
 
 ---
 
