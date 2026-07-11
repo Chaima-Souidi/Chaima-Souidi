@@ -26,18 +26,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Chaima-Souidi&theme=transparent&show_icons=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chaima-Souidi&layout=compact&theme=transparent"/>
-
-</p>
-
----
-
 ## 🌱 Current Status
 
 ```txt
