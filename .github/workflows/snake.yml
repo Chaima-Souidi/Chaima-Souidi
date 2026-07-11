@@ -1,30 +1,36 @@
 name: Generate Snake
 
+# L'action se lance automatiquement et manuellement
 on:
   schedule:
+    # Toutes les 12 heures
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
+  push:
+    branches:
+      - main # ou master selon le nom de ta branche principale
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-
-      - uses: Platane/snk@v3
-
+      - uses: actions/checkout@v3
+      
+      - name: Generate GitHub contribution grid snake
+        uses: Platane/snk@v3
+        id: snake-gif
         with:
-          github_user_name: TON_PSEUDO
+          github_user_name: ${{ github.repository_owner }}
+          # Génère les fichiers dans un dossier temporaire 'dist'
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v4
-
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-
         env:
+          # Jeton de sécurité pour autoriser l'action à modifier ton dépôt
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
