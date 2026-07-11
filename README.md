@@ -3,7 +3,7 @@
 <!-- 5. Readme Typing SVG : Le texte qui s'écrit tout seul -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=%C3%89l%C3%A8ve+Ing%C3%A9nieure;D%C3%A9veloppeuse+Backend+%26+Data;Passionn%C3%A9+de+Cybers%C3%A9curit%C3%A9;Linux+%26+Open+Source" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=%C3%89l%C3%A8ve+Ing%C3%A9nieure;D%C3%A9veloppeuse+Backend+%26+Data;Passionn%C3%A9e+de+Cybers%C3%A9curit%C3%A9;Linux+%26+Open+Source" alt="Typing SVG" />
   </a>
 </p>
 
