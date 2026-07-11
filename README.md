@@ -1,4 +1,4 @@
-# Salut, je suis Chaïma !
+# Salut, je suis Chaïma ! 
 
 <!-- 5. Readme Typing SVG : Le texte qui s'écrit tout seul -->
 <p align="center">
